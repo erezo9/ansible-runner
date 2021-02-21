@@ -37,7 +37,7 @@ jobs:
         with:
           context:  .
           file:  ./Dockerfile
-          tags:  erezo/ansible-runner:4.6.3
+          tags:  erezo/ansible-runner:4.6.4
           push:  true
           
         
