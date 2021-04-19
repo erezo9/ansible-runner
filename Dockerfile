@@ -15,6 +15,7 @@ ENV BUILD_PACKAGES \
 RUN rpm -i /tmp/epel-release-latest-8.noarch.rpm && \
   microdnf install -y ${BUILD_PACKAGES} && \
   python3 -m pip install --upgrade pip && \
+  pip3 --trusted-host pypi.org --trusted-host files.pythonhosted.org install jmespath && \  
   pip3 --trusted-host pypi.org --trusted-host files.pythonhosted.org install ansible && \
   rm -f /tmp/*.rpm
  
