@@ -10,7 +10,8 @@ ENV BUILD_PACKAGES \
   git \ 
   python3 \ 
   wget \
-  findutils
+  findutils \ 
+  jq
 
 RUN rpm -i /tmp/epel-release-latest-8.noarch.rpm && \
   microdnf install -y ${BUILD_PACKAGES} && \
