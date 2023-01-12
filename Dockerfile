@@ -8,7 +8,7 @@ ENV BUILD_PACKAGES \
   tar \
   openssh \ 
   git \ 
-  python38 \ 
+  python311 \ 
   wget \
   findutils \ 
   jq
