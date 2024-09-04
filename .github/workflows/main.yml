@@ -37,7 +37,7 @@ jobs:
         with:
           context:  .
           file:  ./Dockerfile
-          tags:  erezo/ansible-runner:4.8.3
+          tags:  erezo/quali-terraform:1.0
           push:  true
           
         
