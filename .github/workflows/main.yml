@@ -37,7 +37,7 @@ jobs:
         with:
           context:  .
           file:  ./Dockerfile
-          tags:  erezo/quali-terraform:1.5
+          tags:  erezo/quali-terraform:1.6
           push:  true
           
         
