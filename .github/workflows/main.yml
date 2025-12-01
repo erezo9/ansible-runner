@@ -37,7 +37,7 @@ jobs:
         with:
           context:  .
           file:  ./Dockerfile
-          tags:  erezo/terraform-mongo:1.8
+          tags:  erezo/terraform-mongo:1.9
           push:  true
           
         
