@@ -29,9 +29,9 @@ jobs:
         with:
           filters: |
             dockerfile:
-              - 'dockerfile'
+              - 'Dockerfile'
             dockerfile-ocp:
-              - 'dockerfile-ocp'
+              - 'Dockerfile-ocp'
         
       - name: Docker Login
         uses: docker/login-action@v1.8.0

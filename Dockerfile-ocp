@@ -1,6 +1,7 @@
 FROM registry.access.redhat.com/ubi8/ubi-minimal
 ADD epel-release-latest-8.noarch.rpm /tmp/epel-release-latest-8.noarch.rpm
 ADD oc /usr/bin/oc
+RUN chmod +x /usr/bin/oc
 ENV BUILD_PACKAGES \
   sshpass \
   bash \
