@@ -56,7 +56,7 @@ jobs:
         with:
           context:  .
           file:  ./Dockerfile
-          tags:  erezo/terraform:1.1-migration
+          tags:  erezo/terraform:1.2-migration
           push:  true
       
       - name: Build and push Docker images
